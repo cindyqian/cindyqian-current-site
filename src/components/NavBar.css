@@ -1,0 +1,47 @@
+/* @font-face {
+  font-family: "Open Sans Light";
+  src: url('OpenSans-web-font-kit/OpenSans-Light.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url('OpenSans-web-font-kit/OpenSans-Regular.ttf') format("truetype");
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+.nav{
+  /* position: fixed;
+  left: 40px;
+    padding: 40px;
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    color: #A5678E; */
+    /* align-items: left; */
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 15%;
+    top: 35%;
+    /* margin-top: -50%; */
+    /* margin-left: -7.5%; */
+    left: 9%;
+    display: grid;
+    grid-template-rows: 7% 7% 7% 7%;
+    /* background-color: aquamarine; */
+
+}
+
+/* .nav:hover {
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: #A5678E;
+} */
