@@ -1,10 +1,21 @@
-.Rect{
+.RoundedRect{
     /* width: 23%; 
     height: 100%;  */
     position: absolute; 
     /* top: 0%; 
     left: 51%;  */
     border-radius: 20px; 
+    box-shadow: 0 25px 40px -17px rgb(28, 28, 35, 0.45);
+    
+}
+
+.SharpRect{
+    /* width: 23%; 
+    height: 100%;  */
+    position: absolute; 
+    /* top: 0%; 
+    left: 51%;  */
+    /* border-radius: 20px;  */
     box-shadow: 0 25px 40px -17px rgb(28, 28, 35, 0.45);
     
 }
