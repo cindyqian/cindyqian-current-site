@@ -6,7 +6,6 @@ import Image from './components/Image.js';
 import ProfileGraphic from "./photos/CindyFace.png";
 
 function App() {
-  // document.body.style="background-image: linear-gradient(to right, #4D446F, #Df825F)";
   return (
     <div className="All">
       <div /*className="NavBarDiv"*/>
@@ -20,7 +19,7 @@ function App() {
         <div className="profile-container">
           <Rect type = "round" width="20" height="36" top="10" right="5" color="EB9187"/>
           <Image width="30" height="auto" top="0" right="10" src={ProfileGraphic}/>
-          <h1 className="bigHeader" style={{right: "5%" || "0%", top: "60%", color: "#A0B6BA", textAlign: "right"}}>Cindy <br/>Qian</h1>
+          <h1 className="bigHeader" style={{right: "5%" || "0%", top: "60%", color: "#A0B6BA", textAlign: "right"}}>Cindy<br/>Qian</h1>
         </div>
         
 
