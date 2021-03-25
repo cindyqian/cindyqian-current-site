@@ -6,14 +6,14 @@ function Rect(props) {
     return (
     
       <svg className="RoundedRect" width={props.width +"vw"} height={props.height +"%"} 
-      style={{left: props.left + "%" || "0%", right: props.right + "%" || "0%", top: props.top + "%", background: "#" + props.color || "#ffffff", backgroundImage: props.backgroundImage}}/>
+      style={{left: props.left + "%" || "0%", right: props.right + "%" || "0%", top: props.top + "%", background: props.color || "#ffffff", backgroundImage: props.backgroundImage}}/>
       
     );
   }else if(props.type == "sharp"){
     return (
     
       <svg className="SharpRect" width={props.width +"vw"} height={props.height +"%"} 
-      style={{left: props.left + "%" || "0%", right: props.right + "%" || "0%", top: props.top + "%", background: "#" + props.color || "#ffffff", backgroundImage: props.backgroundImage}}/>
+      style={{left: props.left + "%" || "0%", right: props.right + "%" || "0%", top: props.top + "%", background: props.color || "#ffffff", backgroundImage: props.backgroundImage}}/>
       
     );
   }

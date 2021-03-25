@@ -17,21 +17,22 @@ function App() {
 
       <div className="About" >
         <div className="profile-container">
-          <Rect type = "round" width="20" height="36" top="10" right="5" color="EB9187"/>
-          <Image width="30" height="auto" top="0" right="10" src={ProfileGraphic}/>
-          <h1 className="bigHeader" style={{right: "5%" || "0%", top: "60%", color: "#A0B6BA", textAlign: "right"}}>Cindy<br/>Qian</h1>
+          <Rect type = "sharp" width="100" height="100" top="0" left="0" color="#E0AB98"/>
+          <Image width="40" height="auto" top="10" right="10" src={ProfileGraphic}/>
+          {/* <h1 className="bigHeader" style={{left: "90%" || "0%", top: "0%", color: "#A0B6BA"}}>Cindy Qian</h1> */}
         </div>
         
 
         <div className="intro-container">
-          {/* <Rect width="25" height="91" left="0" top="0" color="EB9187"/>
-          <Rect width="25" height="91" left="3" top="5" color="CB8D9A"/> */}
-
+          {/* <Rect width="25" height="91" left="0" top="0" color="#EB9187"/>
+          <Rect width="25" height="91" left="3" top="5" color="#CB8D9A"/> */}
+          
           <div className="intro-text-container">
-              <p className="normalText" style={{width: "48%", color: "#ffffff", textAlign: "left"}}>
+          <div className="typewriter"><span className="bolderNormalTextWhite">Hello, my name is </span><span className="bolderNormalTextBlack">Cindy Qian</span><span className="bolderNormalTextWhite">.</span></div>
 
-                  <span className="bolderNormalText">Hello!</span><br/>
-                  I am a first year student at the 
+              <p className="normalText" style={{width: "60%", color: "#ffffff", textAlign: "left"}}>
+                  {/* <br/><br/> */}
+                  I'm a first year student at the 
                   University of Washington—Seattle and
                   am originally from the San Francisco
                   Bay Area. Although I am still exploring

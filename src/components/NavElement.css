@@ -15,10 +15,10 @@
     text-decoration: none;
     text-align: left; 
     /* center; */
-    color: #EB9187;
+    color: #ffffff;
 }
 
 .each:hover {
     -webkit-text-stroke-width: 1.2px;
-    -webkit-text-stroke-color: #EB9187;
+    -webkit-text-stroke-color: #ffffff;
 }

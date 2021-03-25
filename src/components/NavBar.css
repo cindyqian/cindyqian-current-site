@@ -38,6 +38,8 @@
     left: 8%;
     display: grid;
     grid-template-rows: 12% 12% 12% 12%;
+    z-index: 100;
+
     /* background-color: aquamarine; */
 
 }
